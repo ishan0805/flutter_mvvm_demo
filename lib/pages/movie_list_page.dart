@@ -18,7 +18,7 @@ class _MovieListPageState extends State<MovieListPage> {
   void initState() {
     super.initState();
     // you can uncomment this to get all batman movies when the page is loaded
-    //Provider.of<MovieListViewModel>(context, listen: false).fetchMovies("batman");
+    Provider.of<MovieListViewModel>(context, listen: false).fetchMovies("batman");
   }
 
   @override
